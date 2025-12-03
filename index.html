@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edil Construct</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+  
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="#inicio" class="navbar-brand d-flex align-items-center">
+                <img src="logo.png" alt="Logo" width="100" class="me-2">
+                <span class="text-primary">Edil Construct</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div id="carouselE1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://static.lasprovincias.es/www/multimedia/201801/15/media/centros-comerciales-mundo/victoria-gate.jpg" class="d-block w-100" alt="Slide 1">
+            <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Construyendo el Futuro</h5>
+                <p>Calidad, seguridad y sostenibilidad.</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#servicios" class="btn btn-primary">Nuestros Servicios</a>
+                    <a href="#contacto" class="btn btn-primary">Contacto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://www.top-hotels-es.com/data/Photos/OriginalPhoto/15466/1546613/1546613293/best-tenerife-hotel-playa-de-las-americas-playa-de-las-americas-tenerife-photo-23.JPEG" class="d-block w-100" alt="Slide 2">
+            <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Innovación</h5>
+                <p>Materiales de alta calidad y eficiencia.</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#servicios" class="btn btn-primary">Más Información</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWRpZmljaW8lMjBjb3Jwb3JhdGl2b3xlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100" alt="Slide 3">
+            <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Sostenibilidad</h5>
+                <p>Prácticas responsables con el medio ambiente.</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#servicios" class="btn btn-primary">Más Información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselE1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselE1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+</div>
+
+<section id="servicios" class="py-5">
+    <div class="container">
+        <h1 class="text-center mb-5"><strong>Nuestros Servicios</strong></h1>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card text-white text-center bg-primary pb-2 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Construcción Residencial</h3>
+                        <p>Proyectos de viviendas unifamiliares, multifamiliares y urbanizaciones con calidad y diseño moderno.</p>
+                        <a href="#contacto" class="btn btn-light">Solicitar servicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card text-white text-center bg-success pb-2 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Construcción Comercial</h3>
+                        <p>Edificios de oficinas, centros comerciales, hoteles y otros proyectos comerciales con soluciones innovadoras y eficientes.</p>
+                        <a href="#contacto" class="btn btn-light">Solicitar servicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card text-white text-center bg-danger pb-2 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Construcción Industrial</h3>
+                        <p>Naves industriales, plantas de producción y centros logísticos con diseño optimizado para maximizar la eficiencia operativa.</p>
+                        <a href="#contacto" class="btn btn-light">Solicitar servicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card text-white text-center bg-info pb-2 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Diseño Arquitectónico</h3>
+                        <p>Proyectos arquitectónicos personalizados que combinan funcionalidad, estética y sostenibilidad en cada diseño.</p>
+                        <a href="#contacto" class="btn btn-light">Solicitar servicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card text-white text-center bg-warning text-dark pb-2 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Remodelaciones</h3>
+                        <p>Renovación y ampliación de espacios existentes con soluciones innovadoras que maximizan el valor de su propiedad.</p>
+                        <a href="#contacto" class="btn btn-light">Solicitar servicio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card text-white text-center bg-secondary pb-2 h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Gestión de Proyectos</h3>
+                        <p>Administración integral de proyectos desde la planificación hasta la entrega, asegurando calidad, presupuesto y cronograma.</p>
+                        <a href="#contacto" class="btn btn-light">Solicitar servicio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Nuestros Proyectos</h2>
+                    <p>Descubre algunos de nuestros proyectos más destacados.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          
+            <div class="col">
+                <div class="card bg-light shadow-sm border-0 h-100">
+                    <img src="proyectos recidenciales.jpg" alt="Proyecto Residencial" class="img-fluid rounded-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto Residencial</h5>
+                        <p class="card-text">Residencial de lujo con 50 viviendas</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-light shadow-sm border-0 h-100">
+                    <img src="centro comercial.png" alt="Centro Comercial" class="img-fluid rounded-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Centro Comercial</h5>
+                        <p class="card-text">Centro comercial de 3 niveles</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-light shadow-sm border-0 h-100">
+                    <img src="Nave Industrial.jpg" alt="Nave Industrial" class="img-fluid rounded-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Nave Industrial</h5>
+                        <p class="card-text">Complejo industrial de 15.000 m²</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-light shadow-sm border-0 h-100">
+                    <img src="Edificio de oficinas.jpg" alt="Edificio de oficinas" class="img-fluid rounded-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Edificio de oficinas</h5>
+                        <p class="card-text">Edificio de oficinas de 20 pisos</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-light shadow-sm border-0 h-100">
+                    <img src="Hotel de Lujo.jpeg" alt="Hotel de Lujo" class="img-fluid rounded-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel de Lujo</h5>
+                        <p class="card-text">Hotel de 5 estrellas con 200 habitaciones</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card bg-light shadow-sm border-0 h-100">
+                    <img src="Remodelacion.jpg" alt="Remodelaciones" class="img-fluid rounded-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Remodelaciones</h5>
+                        <p class="card-text">Restauración de espacios de lujo</p>
+                        <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonios" class="py-5 bg-light">
+    <div class="container">
+        <div class="section-title text-center mb-5">
+            <h2 class="fw-bold">Testimonios de Clientes</h2>
+            <p class="text-muted">Lo que dicen quienes confiaron en nosotros</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 p-4 shadow-sm border-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://placehold.co/100x100/2c3e50/ffffff?text=JP" class="me-3 rounded-circle" alt="Cliente 1" width="60" height="60">
+                        <div>
+                            <h5 class="mb-0">Juan Pérez</h5>
+                            <small class="text-muted">Propietario de vivienda</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary mb-3" style="font-style: italic; line-height: 1.6;">
+                        "La calidad de construcción y el cumplimiento de plazos superaron mis expectativas. El equipo fue profesional en todo momento y el resultado final es impresionante."
+                    </p>
+                    <div class="text-warning">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 p-4 shadow-sm border-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://placehold.co/100x100/3498db/ffffff?text=ML" class="me-3 rounded-circle" alt="Cliente 2" width="60" height="60">
+                        <div>
+                            <h5 class="mb-0">María López</h5>
+                            <small class="text-muted">Empresaria</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary mb-3" style="font-style: italic; line-height: 1.6;">
+                        "Excelente atención al detalle y compromiso con el proyecto. Siempre estuvieron disponibles para responder preguntas y ajustar detalles."
+                    </p>
+                    <div class="text-warning">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 p-4 shadow-sm border-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="https://placehold.co/100x100/e74c3c/ffffff?text=RF" class="me-3 rounded-circle" alt="Cliente 3" width="60" height="60">
+                        <div>
+                            <h5 class="mb-0">Roberto Fernández</h5>
+                            <small class="text-muted">Inversionista</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary mb-3" style="font-style: italic; line-height: 1.6;">
+                        "El proyecto se entregó a tiempo y con una calidad que superó mis expectativas. Recomendaría esta empresa sin dudarlo."
+                    </p>
+                    <div class="text-warning">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5">
+                <h2>Contáctanos</h2>
+                <p>¿Tienes un proyecto en mente? Escríbenos y te ayudaremos a hacerlo realidad.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h5 class="footer-title">EdilConstruct</h5>
+                <p>Somos una empresa constructora con más de 15 años de experiencia, comprometida con la calidad, la innovación y la satisfacción de nuestros clientes.</p>
+                <div class="social-links mt-3">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="footer-title">Enlaces</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#inicio" class="text-white text-decoration-none">Inicio</a></li>
+                    <li class="mb-2"><a href="#servicios" class="text-white text-decoration-none">Servicios</a></li>
+                    <li class="mb-2"><a href="#proyectos" class="text-white text-decoration-none">Proyectos</a></li>
+                    <li class="mb-2"><a href="#testimonios" class="text-white text-decoration-none">Testimonios</a></li>
+                    <li class="mb-2"><a href="#contacto" class="text-white text-decoration-none">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="footer-title">Servicios</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#servicios" class="text-white text-decoration-none">Construcción Residencial</a></li>
+                    <li class="mb-2"><a href="#servicios" class="text-white text-decoration-none">Construcción Comercial</a></li>
+                    <li class="mb-2"><a href="#servicios" class="text-white text-decoration-none">Construcción Industrial</a></li>
+                    <li class="mb-2"><a href="#servicios" class="text-white text-decoration-none">Diseño Arquitectónico</a></li>
+                    <li class="mb-2"><a href="#servicios" class="text-white text-decoration-none">Remodelaciones</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="footer-title">Suscríbete</h5>
+                <p>Recibe nuestras últimas noticias y proyectos destacados.</p>
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Tu email">
+                    <button class="btn btn-secondary" type="button">Enviar</button>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4 bg-light">
+        <div class="row">
+            <div class="col text-center">
+                <p class="mb-0">© 2023 EdilConstruct. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
